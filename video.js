@@ -1,8 +1,11 @@
+var videoWidth = 320;
+var videoHeight = 240;
+
 var vgaConstraints = {
 	video: {
 		mandatory: {
-			maxWidth: 320,
-			maxHeight: 240
+			maxWidth: videoWidth,
+			maxHeight: videoHeight
 		}
 	}
 };
